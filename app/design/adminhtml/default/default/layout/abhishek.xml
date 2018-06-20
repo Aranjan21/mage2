@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+  <abhishek_adminhtml_abhishekbackend_index>
+	<reference name="content">
+	  <block type="abhishek/adminhtml_abhishekbackend" name="abhishekbackend" template="abhishek/abhishekbackend.phtml"/>
+	</reference>
+  </abhishek_adminhtml_abhishekbackend_index>
+</layout>

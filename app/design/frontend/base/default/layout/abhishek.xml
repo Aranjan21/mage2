@@ -1,0 +1,15 @@
+<?xml version="1.0"?>   
+<layout version="0.1.0">   
+  <abhishek_index_index>   
+    <reference name="root">   
+      <action method="setTemplate"><template>page/2columns-left.phtml</template></action>   
+    </reference>
+    <reference name="left">   
+      <block type="abhishek/left" name="abhishek_left" template="abhishek/left.phtml"/>   
+    </reference>   
+    <reference name="content">   
+      <block type="abhishek/index" name="abhishek_index" template="abhishek/index.phtml"/>   
+    </reference>   
+  </abhishek_index_index>   
+</layout>   
+	
